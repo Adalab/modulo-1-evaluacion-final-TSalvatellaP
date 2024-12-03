@@ -7,18 +7,37 @@
     justify-items: center;
     gap: 20px;
 
-    
+
+}
+.title_green{
+    color: $color-text;
+    font-family: $font-text;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
 
 }
 
+.title_2{
+    font-size: 20px ;
+    font-family: $font-text;
+}
+
 .container{
-    
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 20px;
-    
-
+    align-items: center;
+    justify-items: center;
+    font-family: $font-text;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+ 
 }
 
 .images{
