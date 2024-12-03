@@ -1,4 +1,4 @@
-.page_main{
+.page_white{
     margin: 15px;
     display: flex;
     flex-direction: column;
@@ -27,4 +27,19 @@
             line-height: 30px;
         }
     }
+}
+.button{
+    width: 160px;
+    height: 45px;
+    border-radius: 22.5px;
+    border-color: $color-button;
+    background: none;
+    font-family: $font-text;
+    font-size: 20px;
+    color: $color-button;
+    margin-bottom: 20px;
+    
+    
+    
+
 }
