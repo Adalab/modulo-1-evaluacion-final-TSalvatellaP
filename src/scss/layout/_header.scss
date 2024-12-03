@@ -14,9 +14,9 @@
 .nav{
   width: 36.4px;
   height: 36.8px;
+  position:fixed;
   top: 0;
   left: 0;
-  position:s;
   background-color: #6c933e;
   display: flex;
   flex-direction: column;
@@ -55,9 +55,6 @@
 }
 
 .down{
-  border-radius: 50%;
-  border: 0;
-  width: 38.2px;
-  height: 38.2px;
+  @include scroll_funtions ();
   
 }
