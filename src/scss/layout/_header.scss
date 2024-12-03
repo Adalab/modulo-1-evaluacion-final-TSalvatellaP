@@ -2,7 +2,7 @@
   background-image: url(../images/cover.jpeg);
   background-repeat: no-repeat;
   background-position: -725px;
-  height: 667px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-content: end;
@@ -16,7 +16,7 @@
   height: 36.8px;
   top: 0;
   left: 0;
-  position: sticky;
+  position:s;
   background-color: #6c933e;
   display: flex;
   flex-direction: column;
@@ -30,8 +30,7 @@
 }
 
 .titulo{
-  height: 100%;
-  width: 100%;
+  height: 100vh;
   color: $color-background;
   display: flex;
   flex-direction: column;
