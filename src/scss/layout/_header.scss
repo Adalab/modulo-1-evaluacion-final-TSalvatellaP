@@ -1,5 +1,51 @@
 .page_header{
   background-image: url(../images/cover.jpeg);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 552px;
+  
  
 }
 
+.nav{
+  width: 36.4px;
+  height: 36.8px;
+  top: 0;
+  left: 0;
+  position: sticky;
+  background-color: #6c933e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_img{
+    width: 80%;
+        
+  }
+    
+}
+
+.titulo{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_h1{
+    text-align: center;
+    &__p{
+      text-align: center;
+    }
+  }
+
+}
+
+.down{
+  border-radius: 50%;
+  border: 0;
+  width: 38.2px;
+  height: 38.2px;
+  
+}
