@@ -1,5 +1,5 @@
 .nav{
-  //hamburguesa fija en index ↓
+  //manu hamburguesa fija en index ↓
   width: 36.4px;
   height: 36.8px;
   position:fixed;
@@ -13,9 +13,8 @@
   z-index: 110px;
   &_img{
     width: 80%;
-        
-  }
-    
+    }
+   
 }
 
 .page_header{
@@ -26,6 +25,17 @@
   display: flex;
   flex-direction: column;
   align-content: end;
+  @media (width>768px){
+    background-size: 160%;
+    background-position-x: -320px;
+    background-position-y:-50px;
+    height: 783.9px;
+    
+    }
+  @media (width>1280px){
+    background-size: 130%;
+      
+    }
 
 
 }
@@ -51,6 +61,32 @@
       line-height: 19px;
       
     }
+  }
+  @media (width>768px){
+    .titulo{
+      &_h1{
+        font-size: 75px;
+        line-height: 100px;
+        &__p{
+          font-size: 25px;
+          line-height: 28px;
+          
+        }
+      }
+
+    }
+  @media (width>1280px){
+    .titulo{
+      &_h1{
+        font-size: 85px;
+        line-height: 100px;
+        &__p{
+          font-size: 35px;
+        
+        }
+      }
+    }
+  }
   }
 
 }

@@ -5,6 +5,11 @@
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
+    @media (width>768px){
+        height: 30vh;
+        justify-content: space-around;
+       
+    }
 }
 
 .Text{
@@ -23,10 +28,14 @@
         &__p{
             font-family: $font-title;
             color: $color-text;
-            font-size: 18px;
+            font-size: 20px;
             line-height: 30px;
         }
     }
+    @media (width>768px){
+        margin-top:0px;
+    }
+    
 }
 .button_white{
     @include button_funtions ();
@@ -37,4 +46,18 @@
     color: $color-button;
     
  
+}
+
+@media (width>768px){
+    .Text{
+    font-size: 18px;
+        &_h2{
+            font-size: 32px;
+            &__p{
+                font-size: 20px;
+            }
+        }
+   
+    }
+    
 }

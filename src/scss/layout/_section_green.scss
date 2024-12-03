@@ -7,7 +7,12 @@
     justify-items: center;
     align-items: center;
     gap: 20px;
-
+    @media (width>768px){
+       height: 50vh;
+       padding-top: 20px;
+       padding-bottom: 20px;
+    }
+  
 }
 .title{
     color: $color-text;
@@ -16,13 +21,30 @@
     margin-top: 15px;
     margin-bottom: 15px;
         &_2{
-            font-size: 20px ;
+        font-size: 20px ;
         font-family: $font-text;
         }
+    @media (width>768px){
+        font-size: 20px;
+        &_2{
+            font-size: 40px;
+        }
+    }
 
 }
 
 .container{
+    @media (width>768px){
+        font-size: 22px;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        &_images{
+            width: 768px;
+            height: 410px;
+              
+            }
+        
+    }
     height: 100%;
     width: 100%;
     display: grid;

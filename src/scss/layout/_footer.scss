@@ -1,8 +1,7 @@
 .page_footer {
-  
   background-color: $color-text;
   font-family: $font-title;
-  font-weight: regular;
+  font-weight: lighter;
   line-height: 30px;
   color: $color-background;
   display: flex;
@@ -10,8 +9,32 @@
   align-items: center;
   gap: 15px;
   padding-bottom: 50px;
-
+  @media (width>768px){
+    flex-direction: row-reverse;
+  
+  }
+  @media (width>1280px){
+    justify-content: center;
+   
+  }
+   
 }
+/*.container_footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 50px;
+  @media (width>768px){
+    flex-direction: row-reverse;
+  
+  }
+  @media (width>1280px){
+    justify-content: center;
+   
+  }
+
+}*/
 
 .menu{
   width: 50vh;
@@ -30,6 +53,15 @@
      
       }
     }
+  @media (width>768px){
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr;
+     margin-top: 30px;
+ 
+  }
+  @media (width>1280px){
+    
+  }
 
 }
 
@@ -39,7 +71,16 @@ span{
 
 .up{
   @include scroll_funtions ();
-  z-index: 110;
+  z-index: 110px;
   transform: translateY(-15px);
+  //no funciona si mueves los dos ejes
+  //transform: translateX(160px);
+  //transform: translateY(-20px);
+  @media (width>768px){
+    //transform: translateX(500px);
+    //transform: translateY(-15px);
+    
+   }
+  
   
 }
