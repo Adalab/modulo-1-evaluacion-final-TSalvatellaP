@@ -1,17 +1,5 @@
-.page_header{
-  background-image: url(../images/cover.jpeg);
-  background-repeat: no-repeat;
-  background-position: -725px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-content: end;
-
-    
- 
-}
-
 .nav{
+  //hamburguesa fija en index ↓
   width: 36.4px;
   height: 36.8px;
   position:fixed;
@@ -22,11 +10,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 110px;
   &_img{
     width: 80%;
         
   }
     
+}
+
+.page_header{
+  background-image: url(../images/cover.jpeg);
+  background-repeat: no-repeat;
+  background-position: -725px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: end;
+
+
 }
 
 .titulo{

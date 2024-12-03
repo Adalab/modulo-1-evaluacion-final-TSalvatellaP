@@ -10,7 +10,6 @@
   align-items: center;
   gap: 15px;
   padding-bottom: 50px;
- 
 
 }
 
@@ -22,15 +21,15 @@
   justify-items: center;
   align-items: center;
   gap: 15px;
-  &_list{
-    font-size: 16px;
-    list-style: none;
-    &__text{
-      text-decoration: none;
-      color: $color-background;
-    
+    &_list{
+      font-size: 16px;
+      list-style: none;
+      &__text{
+        text-decoration: none;
+        color: $color-background;
+     
+      }
     }
-  }
 
 }
 
