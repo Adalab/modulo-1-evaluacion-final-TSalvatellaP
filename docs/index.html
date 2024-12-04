@@ -3,67 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Exam Tania Salvatella</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" >
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
+    
+    <link rel="stylesheet" href="./assets/index-80602957.css">
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+    
+      <nav class="hamb">
+        <a href="https://adalab.es/">
+          <img class="nav_img" src="./images/ico-menu.svg" alt="menu" >
+        </a>
+      </nav>
+      
+    <header class="page_header" id="hero">
+   <div class="titulo">
+    <h1 class="titulo_h1">COMIENZOS <br>COMPARTIDOS</h1>
+    
+    <P class="titulo_h1__p">Todos lo que necesitas para volver al cole con ilusión</P>
+    
+    <button class="down">
+      <a href="index.html#green">
+        <img src="./images/ico-scroll-down.svg" alt="ico-scroll-down">
+      </a>
+    </button>
+  </div>
+ 
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <main class="page_white">
+    <article>
+        <h3 class="Text">HISTORIAS, MODA Y ROPA DEPORTIVA</h3>
+        <h2 class="Text_h2">TU TIENDA DE DEPORTE</h2>
+        <P class="Text_h2__p">El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal. </P>
+    
+    </article>
+    
+    <button class="button_white">Comprar</button>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
-
-    </li>
-  </ul>
+   
 </main>
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
 
-  </small>
+<main class="page_green" id="green">
+    <div>
+        <h3 class="title">¡Prepáralos con tus marcas favoritas!</h3>
+        <h2 class="title_2">VUELTA AL COLE</h2>
+    </div>
+
+    <div class="container">
+        <article>
+            <img class="container_images" src="./images/lpbts-mod05-img01-desk.png" alt="mochila">
+            <h3>Mochilas escolares</h3>
+        </article>
+
+        <article>            
+            <img class="container_images" src="./images/lpbts-mod05-img04-mob.png" alt="estuche">
+            <h3>Estuches</h3>
+        </article>
+
+        <article>            
+            <img class="container_images" src="./images/lpbts-mod05-img03-mob.png" alt="bolsas">
+            <h3>Bolsas de deporte</h3>
+  
+    </div>
+
+   
+    <button class="button_green">Empezar ahora</button>
+   
+
+   
+</main>
+
+
+    <footer class="page_footer">
+    <button class="up">
+        <a href="index.html#hero">
+          <img src="./images/ico-arrow.svg" alt="ico-scroll-down">
+        </a>
+    </button>
+
+   <div class="container_footer"> 
+        <nav class="menu">
+            <ul class="menu_list">
+                <li><a class="menu_list__text" href="https://adalab.es">ZAPATILLAS</a></li>
+                <li><a class="menu_list__text" href="https://adalab.es">ROPA</a></li>
+                <li><a class="menu_list__text" href="https://adalab.es">NIÑO/A</a></li>
+                <li><a class="menu_list__text" href="https://adalab.es">DESTACADOS</a></li>
+                <li><a class="menu_list__text" href="https://adalab.es">TIPS</a></li>
+            </ul>
+            <ul class="menu_list">
+                <li><a class="menu_list__text" href="https://adalab.es">TWITTER</a></li>
+                <li><a class="menu_list__text" href="https://adalab.es">INSTAGRAM</a></li>
+                <li><a class="menu_list__text" href="https://adalab.es">YOUTUBE</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h4>&copy; 2023</h4>
+            <p>we <span>&hearts;</span> run</p>
+        </div>
+   
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
+  
+   
+  
   </body>
 </html>
