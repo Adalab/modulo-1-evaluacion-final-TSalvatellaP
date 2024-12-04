@@ -106,8 +106,7 @@ La estructura de carpetas tiene esta proyecto:
 
 ```
 src
- ├─ images
- |  └─ logo.jpg
+ ├─ images 
  ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
  |  ├─ main.js
  |  └─ events.js
