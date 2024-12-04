@@ -22,17 +22,9 @@
     width: 200px;
     height: 50px;
     font-size: 3rem;
+    transition: all 0.2s ease-out;
     &:active{
         transform: scale(0.9);
     }
-    @keyframes button_animation {
-        0%{
-            transform: scale3d(1.1.1);
-        }
-        50%{
-            transform: scale3d(1.15,0.85, 1);
-        }
-        
-    }
-
+   
 }
