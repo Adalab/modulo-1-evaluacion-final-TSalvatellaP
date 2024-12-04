@@ -38,12 +38,18 @@
     
 }
 .button_white{
+    @include button_animation();
     @include button_funtions ();
     width: 160px;
     height: 45px;
     border: 2px solid $color-button;
     background: none;
     color: $color-button;
+    &:hover{
+        background-color:$color-button;
+        border: 2px solid $color-brand;
+        color: $color-brand;
+    }
     
  
 }

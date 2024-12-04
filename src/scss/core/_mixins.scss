@@ -11,5 +11,28 @@
     border: 0;
     width: 38.2px;
     height: 38.2px;
+    &:hover{
+        background-color:$color-brand;
+        border: 2px solid $color-button;
+    }
+ 
+}
+
+@mixin button_animation(){
+    width: 200px;
+    height: 50px;
+    font-size: 3rem;
+    &:active{
+        transform: scale(0.9);
+    }
+    @keyframes button_animation {
+        0%{
+            transform: scale3d(1.1.1);
+        }
+        50%{
+            transform: scale3d(1.15,0.85, 1);
+        }
+        
+    }
 
 }

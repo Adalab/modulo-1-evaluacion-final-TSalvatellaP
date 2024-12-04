@@ -69,11 +69,20 @@
 }
 
 .button_green{
+    @include button_animation();
     @include button_funtions ();
     width: 184px;
     height: 47.3px;
     background-color: $color-button;
     color: $color-background;
     border-style: none;
+    &:hover{
+        background-color:$color-background;
+        border: 2px solid $color-button;
+        color: $color-brand;
+        
+    }
 
 }
+
+
