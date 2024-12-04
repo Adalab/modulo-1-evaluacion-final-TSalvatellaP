@@ -68,7 +68,9 @@ span{
   z-index: 110px;
   transform: translate(0px, -15px);
   @media (width>768px){
-    transform: translate(-300px, -115px);
+    position: absolute;
+    transform: translateY(-115px);
+    
    
    }
   
