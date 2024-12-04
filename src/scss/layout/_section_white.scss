@@ -41,7 +41,7 @@
     @include button_funtions ();
     width: 160px;
     height: 45px;
-    border-color: $color-button;
+    border: 2px solid $color-button;
     background: none;
     color: $color-button;
     

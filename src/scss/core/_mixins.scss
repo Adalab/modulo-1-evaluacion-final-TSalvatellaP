@@ -1,9 +1,10 @@
 @mixin button_funtions (){
+    border-style: none;
     border-radius: 22.5px ;
     font-family: $font-title;
     font-size: 20px;
     margin-bottom: 25px;
-}
+    }
 
 @mixin scroll_funtions(){
     border-radius: 50%;

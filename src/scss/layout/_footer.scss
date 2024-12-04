@@ -6,6 +6,7 @@
   color: $color-background;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 15px;
   padding-bottom: 50px;
@@ -14,12 +15,12 @@
   
   }
   @media (width>1280px){
-    justify-content: center;
+    justify-items: center;
    
   }
    
 }
-/*.container_footer{
+.container_footer{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +35,7 @@
    
   }
 
-}*/
+}
 
 .menu{
   width: 50vh;
@@ -57,12 +58,8 @@
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr;
      margin-top: 30px;
+   }
  
-  }
-  @media (width>1280px){
-    
-  }
-
 }
 
 span{
@@ -72,15 +69,14 @@ span{
 .up{
   @include scroll_funtions ();
   z-index: 110px;
-  transform: translateY(-15px);
-  //no funciona si mueves los dos ejes
-  //transform: translateX(160px);
-  //transform: translateY(-20px);
+  transform: translate(0px, -15px);
   @media (width>768px){
-    //transform: translateX(500px);
-    //transform: translateY(-15px);
+    transform: translate(-350px, -115px);
+   
+   }
+  @media (width>1280px){
+    transform: translate(-300px, -115px);
     
    }
-  
-  
+ 
 }
